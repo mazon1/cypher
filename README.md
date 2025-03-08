@@ -1,5 +1,3 @@
-# cypher
-
 # Cypher - Predictive Health AI App
 
 ## Overview
