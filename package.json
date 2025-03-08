@@ -1,0 +1,16 @@
+{
+  "name": "cypher",
+  "version": "1.0.0",
+  "description": "## Overview Cypher is a predictive health application that leverages AI and user lifestyle data to forecast potential future health risks. By analyzing daily habits such as diet, sleep, physical activity, and stress levels, the app provides personalized recommendations to improve overall well-being and prevent chronic health conditions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^19.0.0"
+  }
+}
