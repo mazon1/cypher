@@ -20,10 +20,42 @@
             height: 100vh;
         }
 
+<<<<<<< HEAD
+=======
+        /* Navigation Bar */
+        nav {
+            background: rgba(0, 0, 0, 0.3);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+>>>>>>> ac7bc02 (Moved all files from cypher-health-app to cypher root directory)
         /* Header */
         h1 {
             font-size: 2.5rem;
             margin: 10px;
+<<<<<<< HEAD
+=======
+            margin-top: 80px; /* Push content below navbar */
+>>>>>>> ac7bc02 (Moved all files from cypher-health-app to cypher root directory)
         }
 
         p {
@@ -62,6 +94,16 @@
 
         /* Responsive Design */
         @media (max-width: 600px) {
+<<<<<<< HEAD
+=======
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                padding: 8px;
+            }
+>>>>>>> ac7bc02 (Moved all files from cypher-health-app to cypher root directory)
             h1 {
                 font-size: 2rem;
             }
@@ -76,8 +118,27 @@
     </style>
 </head>
 <body>
+<<<<<<< HEAD
     <h1>Welcome to Cypher Health <span class="wave">👋</span></h1>
     <p>Discover AI-powered insights into your daily habits and improve your health before it's too late.</p>
     <a href="#" class="cta-btn">Get Started</a>
+=======
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="frontend/dashboard.html">Dashboard</a>
+        <a href="frontend/goals.html">Goals</a>
+        <a href="frontend/reports.html">Reports</a>
+        <a href="frontend/settings.html">Settings</a>
+    </nav>
+    
+
+    <!-- Main Content -->
+    <h1>Welcome to Cypher Health <span class="wave">👋</span></h1>
+    <p>Discover AI-powered insights into your daily habits and improve your health before it's too late.</p>
+    <a href="dashboard.html" class="cta-btn">Get Started</a>
+
+>>>>>>> ac7bc02 (Moved all files from cypher-health-app to cypher root directory)
 </body>
 </html>
